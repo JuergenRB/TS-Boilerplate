@@ -66,3 +66,4 @@ TS-Boilerplate follows the [Contributor Covenant][contrib-covenant] Code of Cond
 [standard-readme]: https://github.com/RichardLitt/standard-readme
 [standard-readme compliant]: https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square
 [contrib-covenant]: https://www.contributor-covenant.org/version/1/4/code-of-conduct
+[repo-template-action]: https://github.com/JuergenRB/TS-Boilerplate/generate
