@@ -6,13 +6,13 @@
 A simple template for a TypeScript project.
 
 It provides:
-* [TypeScript][typescript]: JavaScript with syntax for types
-* [ESLint](https://eslint.org/): Linter
-* [Prettier](https://prettier.io/): Code formatter
-* [esbuild](https://esbuild.github.io/): An extremely fast JavaScript bundler
-* [Jasmine](https://jasmine.github.io/): A behavior-driven development framework for testing JavaScript code
-* [nodemon](https://nodemon.io/): reload, automatically.
-* [Chai](https://www.chaijs.com/): A BDD / TDD assertion library
+* [TypeScript]: JavaScript with syntax for types
+* [ESLint][eslint]: Linter
+* [Prettier]: Code formatter
+* [esbuild]: An extremely fast JavaScript bundler
+* [Jasmine]: A behavior-driven development framework for testing JavaScript code
+* [nodemon]: reload, automatically.
+* [Chai]: A BDD / TDD assertion library
 
 
 ## Table of Contents
@@ -20,6 +20,7 @@ It provides:
 - [Install](#install)
 - [Usage](#usage)
 - [Maintainer](#maintainer)
+- [Contributing](#contributing)
 - [License](#license)
 
 ## Install
@@ -67,3 +68,10 @@ TS-Boilerplate follows the [Contributor Covenant][contrib-covenant] Code of Cond
 [standard-readme compliant]: https://img.shields.io/badge/readme%20style-standard-brightgreen.svg?style=flat-square
 [contrib-covenant]: https://www.contributor-covenant.org/version/1/4/code-of-conduct
 [repo-template-action]: https://github.com/JuergenRB/TS-Boilerplate/generate
+[maintainer]: https://github.com/JuergenRB
+[eslint]: https://eslint.org/
+[prettier]: https://prettier.io/
+[esbuild]: https://esbuild.github.io/
+[jasmine]: https://jasmine.github.io/
+[nodemon]: https://nodemon.io/
+[chai]: https://www.chaijs.com/
