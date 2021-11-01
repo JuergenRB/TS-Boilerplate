@@ -1,0 +1,29 @@
+{
+  "name": "TS-Boilerplate",
+  "description": "A template for a typescript application.",
+  "scripts": {
+    "build": "esbuild ./app/app.ts --bundle --outfile=./dist/myApp.js",
+    "build:prod": "npm run build -- --minify",
+    "test": "jasmine-ts \"spec/**/*.spec.ts\"",
+    "lint": "eslint . --ext .ts",
+    "lint:fix": "npm run lint -- --fix",
+    "watch": "nodemon --ext ts --exec \"npm run test && npm run lint\"",
+    "watch:test": "nodemon --ext ts --exec \"npm run test\"",
+    "watch:lint": "nodemon --ext ts --exec \"npm run lint\""
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.22",
+    "@types/jasmine": "^3.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.1.0",
+    "@typescript-eslint/parser": "^5.1.0",
+    "chai": "^4.3.4",
+    "esbuild": "^0.13.8",
+    "eslint": "^8.0.1",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "jasmine-ts": "^0.4.0",
+    "nodemon": "^2.0.14",
+    "prettier-plugin-organize-imports": "^2.3.4",
+    "typescript": "^4.4.4"
+  }
+}
