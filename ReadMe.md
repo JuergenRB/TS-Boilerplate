@@ -75,3 +75,4 @@ TS-Boilerplate follows the [Contributor Covenant][contrib-covenant] Code of Cond
 [jasmine]: https://jasmine.github.io/
 [nodemon]: https://nodemon.io/
 [chai]: https://www.chaijs.com/
+[license]: LICENSE.txt
